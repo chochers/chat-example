@@ -1,0 +1,27 @@
+.message {
+  display: flex;
+  align-items: flex-end;
+  padding: 10px;
+}
+
+.message-start {
+  justify-content: flex-start;
+}
+
+.message-end {
+  justify-content: flex-end;
+}
+
+.message-wrap {
+  max-width: 60%;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.my-message-wrap {
+  background-color: #f0f0f0;
+}
+
+.their-message-wrap {
+  background-color: #e9eff4;
+}
